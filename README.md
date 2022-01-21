@@ -1,0 +1,2 @@
+# Removing-Bias-from-Movie-Reviews
+I have used domain adaptation method described in the paper https://arxiv.org/pdf/1409.7495.pdf. This method seemed to have worked well on removing gender/racial biases in various NLP tasks discussed above. So, the idea is to train a model in such a manner that it is able to learn the overall category/rating of review while not focusing on the protected information (genre, celebrity etc.). 
